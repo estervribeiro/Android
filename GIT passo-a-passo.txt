@@ -1,0 +1,45 @@
+pwd - exibe a pasta atual
+
+ls - exibe o conteúdo da pasta
+ 
+cd + nome da pasta - entra em uma pasta 
+
+git init - criar repositorio (comando dentro da pasta)
+
+git status - exibir estatus mostrando seu local
+
+git add -A - adiciona todos arquivos
+______________________________________________________________________________
+git config user.name "Ivanildo Santos"
+						-> se ainda não foi feito
+git config user.email "ivanildo.ssf@gmail.com"
+______________________________________________________________________________
+
+git commit -m "Versão 01" - salvar no git
+
+git config http.sslVerify false
+
+git config https.sslVerify false
+
+git remote add origin https://github.com/seu/endereco/git - adiciona
+
+(AGORA É PRECISO DESABILITAR O PROXY)
+
+git push origin master - mandar a origem  da pasta local para o GIT hub
+
+
+******************************************************************************
+
+
+git commit -m "Versão 01" - salvar no git
+
+git log - mostra as versões do arquivo
+
+git log -p - mostra o que foi alterado no arquivo
+git whatchanged - mostra o que foi alterado no arquivo
+
+git ls-files - mostra apenas os arquivos rastreados
+
+git remote - mostra acesso remoto
+
+q - sair

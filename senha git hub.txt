@@ -1,0 +1,43 @@
+
+GIT HUB
+
+
+
+// ***********  $ ssh-keygen -t rsa -C "seu email do git hub"
+
+pwd >>>> mostra onde vc esta
+
+git int >>> cria um repositorio git
+
+git status >>> mostra o estatus do seu local
+
+ls -a >>>>> mostra os arquivos ocultos
+
+git add "nome do arquivo" >>>> rastrear/atualizar/salvar um arquivo na pasta do repositorio git
+
+git commit -m "o que foi mudado no arquivo" >>>> salvar no git
+
+git log >>>> mostra as versões do arquivo
+
+git log -p >>>> mostra o que tem de diferente nas versões disponiveis no git e apresenta elas
+
+git whatchanged >>>>>>> mostra o que foi adicionado ou mudado
+
+git ls-files >>>> mostra os arquivos que estao comitados
+
+git remote >>>>> verificar se vc tem um git remoto
+
+git remote add origin https://"repositorio criado no Github"  >>>> copiar o repositorio local para o remoto (GitHub) 
+
+git push origin master >>>> carregar meu git para o hub
+
+Ctrl +c >>>> encerrar uma açao em andamento
+
+ 
+git config http.sslVerify false
+
+git config https.sslVerify false
+
+
+
+
